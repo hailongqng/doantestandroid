@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".About_us">
+    <TextView
+
+        android:id="@+id/gioithieu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="@string/gioithieu"
+        />
+
+    <TextView
+        android:id="@+id/gioithieuthanhvien"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gioithieuthanhvien"
+        android:layout_below="@+id/gioithieu"
+        android:textSize="24sp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/ttv1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ttv1"
+        android:layout_below="@+id/gioithieuthanhvien"
+        android:textSize="30sp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/ttv2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ttv2"
+        android:layout_below="@+id/ttv1"
+        android:textSize="30sp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/ttv3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ttv3"
+        android:layout_below="@+id/ttv2"
+        android:textSize="30sp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/ttv4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ttv4"
+        android:layout_below="@+id/ttv3"
+        android:textSize="30sp"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/ttv5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ttv5"
+        android:layout_below="@+id/ttv4"
+        android:textSize="30sp"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageView
+        android:layout_width="342dp"
+        android:layout_height="390dp"
+        android:layout_below="@+id/ttv5"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:src="@drawable/iconhutech" />
+</RelativeLayout>
